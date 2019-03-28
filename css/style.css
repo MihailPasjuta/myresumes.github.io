@@ -1,0 +1,28 @@
+body {
+	background: #eee; 
+}
+body > .container {
+	background: white;
+	padding: 5px 20px 15px;
+	margin: 0 auto; 
+	box-shadow: 0 0 20px #ccc;
+}
+#menu {
+	font-size: 21px;
+}
+.navbar-toggle {
+	background: #46b8da !important;
+	margin-right: 0;
+	color: white !important;
+}
+@media only screen and (max-width: 768px) {
+	#menu {
+		position: fixed;
+		top: 0 !important;
+		width: calc(100% - 10px) !important;
+	}
+	.affix, .affix-bottom, .affix-top {
+		position: relative !important;
+		width: 100% !important;
+	}
+} 
